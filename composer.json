@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "jorgenb/test-test-skeleton",
+    "description": "This is my package test-skeleton",
     "keywords": [
-        ":vendor_name",
+        "jorgenb",
         "laravel",
-        ":package_slug"
+        "test-test-skeleton"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/jorgenb/test-test-skeleton",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Jørgen Birkhaug",
+            "email": "jorgen.birkhaug@bilberry.no",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Jorgenb\\TestSkeleton\\": "src/",
+            "Jorgenb\\TestSkeleton\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "Jorgenb\\TestSkeleton\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Jorgenb\\TestSkeleton\\TestSkeletonServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "TestSkeleton": "Jorgenb\\TestSkeleton\\Facades\\TestSkeleton"
             }
         }
     },
