@@ -3,8 +3,8 @@
 namespace Jorgenb\TestSkeleton\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use Jorgenb\TestSkeleton\TestSkeletonServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

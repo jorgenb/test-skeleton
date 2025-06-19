@@ -2,9 +2,9 @@
 
 namespace Jorgenb\TestSkeleton;
 
+use Jorgenb\TestSkeleton\Commands\TestSkeletonCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Jorgenb\TestSkeleton\Commands\TestSkeletonCommand;
 
 class TestSkeletonServiceProvider extends PackageServiceProvider
 {
